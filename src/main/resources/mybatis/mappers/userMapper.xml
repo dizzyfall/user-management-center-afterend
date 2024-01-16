@@ -29,8 +29,4 @@
         userRole,userStatus,createTime,
         isDelete,updateTime
     </sql>
-
-    <!--    <select id="queryOneByUserAccountAndUserPassword" resultMap="BaseResultMap">-->
-    <!--        select sql from user where userAccount = #{userAccount} and userPassword = #{userAccount}-->
-    <!--    </select>-->
 </mapper>

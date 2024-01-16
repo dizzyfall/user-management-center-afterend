@@ -2,7 +2,6 @@ package com.dzy.model.domain;
 
 import com.baomidou.mybatisplus.annotation.*;
 
-import java.io.Serial;
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -19,9 +18,6 @@ import org.springframework.stereotype.Component;
 @Data
 @Component
 public class User implements Serializable {
-
-    @Serial
-    private static final long serialVersionUID = 6799630370606827633L;
 
     /**
      * 用户唯一标识

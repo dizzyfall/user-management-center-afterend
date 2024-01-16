@@ -12,13 +12,7 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface UserMapper extends BaseMapper<User> {
-    /**
-     * 返回查询用户
-     * @param userAccount
-     * @param userPassword
-     * @return
-     */
-//    long queryOneByUserAccountAndUserPassword(String userAccount,String userPassword);
+
 }
 
 

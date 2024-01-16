@@ -3,7 +3,6 @@ package com.dzy.common;
 import com.dzy.constant.StatusCode;
 import lombok.Data;
 
-import java.io.Serial;
 import java.io.Serializable;
 
 /**
@@ -14,8 +13,6 @@ import java.io.Serializable;
  */
 @Data
 public class BaseResponse<T> implements Serializable {
-    @Serial
-    private static final long serialVersionUID = -7145435742475034753L;
     /**
      * 状态码
      */

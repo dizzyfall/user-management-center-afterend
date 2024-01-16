@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://gz-cynosdbmysql-grp-pozkf1rz.sql.tencentcdb.com:20709/user-management-center
+    username: admin
+    password: fh6%$]5F.z^{3Gl
