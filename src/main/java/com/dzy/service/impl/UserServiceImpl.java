@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
@@ -34,7 +35,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
     //盐值
     private static final String SALT = "0JV2Nw26";
 
-    @Autowired
+    @Resource
     private UserMapper userMapper;
 
     /**
